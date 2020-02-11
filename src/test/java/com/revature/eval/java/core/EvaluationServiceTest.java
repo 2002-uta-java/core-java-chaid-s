@@ -29,6 +29,7 @@ public class EvaluationServiceTest {
 	/*******************************************************************
 	 * Question 1
 	 ******************************************************************/
+	
 	@Test
 	public void testAnEmptyString() {
 		assertEquals("", evaluationService.reverse(""));
@@ -364,7 +365,7 @@ public class EvaluationServiceTest {
 
 		assertTrue(evaluationService.isArmstrongNumber(input));
 	}
-
+//
 	/*******************************************************************
 	 * Question 10
 	 ******************************************************************/
@@ -574,9 +575,9 @@ public class EvaluationServiceTest {
 		assertFalse(evaluationService.isPangram("five boxing wizards jump quickly at it"));
 	}
 
-	/*******************************************************************
-	 * Question 17
-	 ******************************************************************/
+//	/*******************************************************************
+//	 * Question 17
+//	 ******************************************************************/
 	@Test
 	public void modernTime() {
 		assertEquals(LocalDateTime.of(2043, Month.JANUARY, 1, 1, 46, 40),
